@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0" name="demo-feature">
+    <feature name="demo-feature" version="1.0.0">
+        <feature version="2.15.1.redhat-621084">camel-script-javascript</feature>
+    </feature>
+
+    <repository>mvn:org.apache.camel.karaf/apache-camel/2.15.1.redhat-621084/xml/features</repository>
+</features>
